@@ -1,21 +1,50 @@
 
-.main-container{
+.bar-container{
     position: absolute;
-    top: 50%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    height: 80%;
+    height: 17%;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
 }
 
-.bar{
-    width: 10px;
+.bar {
+    bottom: 0;
+    width: 20px;
     background-color: aqua;
     border-radius: 5px;
     margin-left: 5px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar p {
+    font-size: smaller;
+    position: absolute;
+    bottom: -10px;
+}
+
+.circle-container{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle{
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }
