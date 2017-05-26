@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-    <title>First D3 Project</title>
+    <title>Za'atari</title>
     <link rel="stylesheet" href="stylesheet.css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Cormorant+Unicase|Cormorant+Upright|Julius+Sans+One" rel="stylesheet"></head>
 <body ng-controller="mainCtrl">
 
-<div class="main-container">
-    <div class="bar-container"></div>
-    <div class="circle-container"></div>
+<div class="main-container"></div>
+<div class="main-overlay"></div>
+<div class="header">
+    <div class="title">ZA'ATARI</div>
+
+    <div class="my-name">
+        <p>a project by:
+            <a href="https://sethds-portfolio.herokuapp.com/#!/portfolio">seth<span class="david">david</span> sutherland</p></a>
+    </div>
 </div>
+<div class="population">
+    <div class="pop-data-heading">population: 79,801</div>
+
+    <div class="pop-data"></div>
+</div>
+
+<div class="data-container">
+
+    <div class="male-data-container"></div>
+    <div class="female-data-container"></div>
+
+</div>
+
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="app.js"></script>
-<script src="./controllers/main-controller.js"></script>
 <script src="./services/main-service.js"></script>
+<script src="./controllers/main-controller.js"></script>
+
 </body>
 </html>

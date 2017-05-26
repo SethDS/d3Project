@@ -1,50 +1,108 @@
 
-.bar-container{
-    position: absolute;
-    top: 41%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 17%;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: darkred;
 }
 
-.bar {
-    bottom: 0;
-    width: 20px;
-    background-color: aqua;
-    border-radius: 5px;
-    margin-left: 5px;
+.main-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/zaatari_camp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: blur(3px);*/
+}
+
+.main-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    opacity: 0.7;
+    color: darkred;
     display: flex;
+    align-items: center;
+}
+.title {
+    position: relative;
+    left: 5%;
+    font-size: 4rem;
+    font-family: 'Julius Sans One', serif;
+    color: darkred;
+}
+
+
+.my-name{
+    position: absolute;
+    right: 5%;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    color: darkred;
+}
+.david {
+    color: red;
+}
+
+
+.population {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
-.bar p {
-    font-size: smaller;
-    position: absolute;
-    bottom: -10px;
+.pop-data-heading{
+    /*position: absolute;*/
+    /*left: 45%;*/
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
-.circle-container{
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.pop-data{
+    height: 70%;
+    width: 90%;
 }
-.circle{
-    border-radius: 50%;
-    background-color: cornflowerblue;
+
+
+.data-container {
+    position: absolute;
+    top: 36%;
+    height: 64%;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+.male-data-container{
+    height: 90%;
+    width: 45%;
+}
+.female-data-container {
+    height: 90%;
+    width: 45%;
+}
+
+.male-data-text{
+    transform: rotate(270deg);
 }
