@@ -106,3 +106,18 @@ a {
 .male-data-text{
     transform: rotate(270deg);
 }
+
+.fa-female{
+    position: absolute;
+    top: -20px;
+    left: 75%;
+    color: darkred;
+    font-size: xx-large!important;
+}
+.fa-male{
+    position: absolute;
+    color: red;
+    top: -20px;
+    left: 25%;
+    font-size: xx-large!important;
+}
