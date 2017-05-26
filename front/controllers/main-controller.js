@@ -164,7 +164,7 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             .attr("text-anchor", "middle")
             .attr("class", "male-pop-text")
             .attr("font-family", "Julius Sans One")
-            .attr("font-size", "medium")
+            .attr("font-size", "large")
             .attr("fill", "white")
             .attr("class", "male-data-text");
 
