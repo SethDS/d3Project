@@ -155,7 +155,7 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             .enter()
             .append("text")
             .text(function(d){
-                return "Males ages " + d.ageGroup + " comprise " + d.percentage + "% of the population";
+                return "Ages " + d.ageGroup + " equal " + d.percentage + "%";
             })
             .attr("x", h - (h * 1.5))
             .attr("y", function(d, i) {
@@ -164,7 +164,7 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             .attr("text-anchor", "middle")
             .attr("class", "male-pop-text")
             .attr("font-family", "Julius Sans One")
-            .attr("font-size", "large")
+            .attr("font-size", "medium")
             .attr("fill", "white")
             .attr("class", "male-data-text");
 
@@ -216,7 +216,7 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             .enter()
             .append("text")
             .text(function(d){
-                return "Males ages " + d.ageGroup + " comprise " + d.percentage + "% of the population";
+                return "Ages " + d.ageGroup + " equal " + d.percentage + "%";
             })
             .attr("x", h - (h * 1.5))
             .attr("y", function(d, i) {
