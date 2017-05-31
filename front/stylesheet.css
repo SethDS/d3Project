@@ -148,7 +148,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin-right: auto;
         margin-left: auto;
         bottom: 0;
-        font-size: xx-large;
+        font-size: large;
         text-transform: uppercase;
         font-family: 'Julius Sans One', sans-serif;
         color: darkred;
