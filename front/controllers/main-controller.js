@@ -159,7 +159,7 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             })
             .attr("x", h - (h * 1.5))
             .attr("y", function(d, i) {
-                return  (w / dat.length) * i + 70;
+                return  (w / dat.length) * i + 80;
             })
             .attr("text-anchor", "middle")
             .attr("class", "male-pop-text")
