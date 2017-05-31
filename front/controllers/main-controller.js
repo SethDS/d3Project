@@ -114,8 +114,8 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             w = document.getElementsByClassName("male-data-container")[0].clientWidth,
             svg = dataContainer
                 .append("svg")
-                .attr("width", w)
-                .attr("height", h);
+                .attr("width", w - 50)
+                .attr("height", h - 50);
 
             svg.selectAll("rect")
                 .data(dat)
@@ -177,8 +177,8 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainService){
             w = document.getElementsByClassName("female-data-container")[0].clientWidth,
             svg = dataContainer
                 .append("svg")
-                .attr("width", w)
-                .attr("height", h);
+                .attr("width", w - 50)
+                .attr("height", h - 50);
 
         svg.selectAll("rect")
             .data(dat)
